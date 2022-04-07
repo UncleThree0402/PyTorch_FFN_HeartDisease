@@ -5,7 +5,7 @@
 Data is from [UCL Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/heart+disease)
 
 ### Data Before Normalized
-![]
+![box_plot_before_normalize](https://github.com/UncleThree0402/PyTorch_FFN_HeartDisease/blob/master/Photo/box_plot_before_normalize.png)
 
 ### Data After Normalized
 ![box_plot_after_normalize](https://github.com/UncleThree0402/PyTorch_FFN_HeartDisease/blob/master/Photo/box_plot_after_normalize.png)
