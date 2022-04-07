@@ -114,6 +114,7 @@ lr_scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=lr_step, gam
 
 ## Performance
 ![performance](https://github.com/UncleThree0402/PyTorch_FFN_HeartDisease/blob/master/Photo/performance.png)
+> We can see that model performance is unbiased.
 
 ### Train
 ```bash
