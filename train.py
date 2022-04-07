@@ -22,6 +22,12 @@ data.columns = ["age", "sex", "cp", "trestbps", "chol", "fbs", "restecg", "thala
                 "thal", "num"]
 data = data.replace('?', np.nan).dropna()
 
+data_keys = data.keys()
+
+for d in data_keys:
+  num = pd.to_numeric(data[d])
+  data[d] = num
+
 print(f"Data before normalized:\n{data.describe()}")
 
 utils.box_plot(data, "Before Normalize")
